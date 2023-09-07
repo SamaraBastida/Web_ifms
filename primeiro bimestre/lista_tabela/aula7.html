@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios base</title>
+
+    </head>
+    <body>
+        <!--formulario usa input para criar campos, input é um componente sem corpo -->
+        <!--type é um atributo vai depender do tipo de informacao q vai ser inserida no campo -->
+
+   <!--f todo label precisa de um for "para" o id vai colocar o campo do lado do que ta escrito-->
+<table border="1px">
+
+    <tr>
+        <th colspan="2">Primeiro Formulario</th>
+    </tr>
+   <tr>
+      <td> <label for="txtName"> Digite seu nome</label></td>
+        <td><input type="text" name="txtName" id="txtName" placeholder="Digite seu nome"/> </td>
+        <!--txt sempre vai estar relacionado a um campo do tipo texto-->
+        <!--placeholder vai deixar aquele texto/marca d'agua dentro do campo-->
+    </tr>
+
+    <tr>
+      <td>  <label for="txtPwd"> Insira sua senha</label></td>
+       <td> <input type="password" name="txtPwd" id="txtPwd"/></td>
+        <!--fica oculto o conteudo-->
+    </tr>
+
+    <tr>
+       <td> <label for="dtDate"> Insira sua data de nascimento</label></td>
+        <td><input type="date" name="dtDate" id="dtDate"/></td>
+    </tr>
+
+    <tr>
+       <td colspan="2"> <input type="button" value="Clique em mim" id="btnEnviar" name="btnEnviar"></td>
+        <!--value o que aparece no botão-->
+    </tr>
+       <!-- <input type="number" name="" id="">coloca aquelas setinhs pra escolher o num-->
+   <tr>
+   <td> <input type="checkbox" name="chk" id="chk"> </td>
+   <td> <input type="checkbox" name="chk" id="chk"> </td>
+</tr>
+   <!--cx pra selecionar-->
+<th colspan="2">
+    <input type="radio" name="fav_language" value="HTML">
+   <label for="html">HTML</label><br>
+   <input type="radio" id="css" name="fav_language" value="CSS">
+   <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+   <label for="javascript">JavaScript</label>
+
+   <!--radio varias opçoes-->
+ </th>
+<tr>
+  <td colspan="2"> <select name="sltLanguage" id="sltLanguage">
+    <option>HTML</option>
+    <option>JavaScript</option>
+    <option>Python</option>
+    <option>Java</option></tr>
+   <!--SELECT VAI TER AQUELE CAMPO Q ABRE VARIAS OPCOES-->
+</tr>
+
+</table>
+    </body>
+</html>
