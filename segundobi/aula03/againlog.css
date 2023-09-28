@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient( 1DEG,#2b0343f3, #98122f, #2b0343f3);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.login-content {
+    background: rgba(255, 255, 255, 0.233);
+    opacity: 0.7;
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+img {
+   border-radius: 50%; 
+   opacity: 0.5;
+   width: 90px;
+   position: relative;
+   right: 5px;
+}
+
+.input {
+    background: transparent;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.input-text {
+    background: transparent;
+    color: #fff;
+    width: 250px;
+    height: 35px;
+    border: none;
+    text-align: left;
+    outline: none;
+    padding: 14px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.remember {
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+}
+
+.chechbox {
+    position: relative;
+    right: 50px;
+}
+
+h4 {
+    font-weight: 300;
+    position: relative;
+    right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.button {
+    background: linear-gradient(75DEG,#2b0343f3, #270a87);
+    color: #fff;
+    border: 1px solid #200463a3;
+    width: 300px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 5px;
+    outline: none;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+.red,
+.blue{
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background: tomato;
+}
+
+.blue{
+    background: rgb(60, 60, 225);
+}
+
+.container{
+    height: 500px;
+    border: 1.5px solid #000;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* flex direction determina a direcão/ sentido do container */
+/* flex-wrap: vai quebrar a linha automaticamente e nowrap NAO VAI QUEBRAR A LINHA */
+/* display: flex deixa um do lado do outro - por padrão fica na horizontal */
+/* flex-direction: column; coloca na vertical    se estiver row coloca na horizontal*/
+/* colum reverse - vai inverter a ordem das colunas ex: coluna1 e coluna2 mudam de posição */
+/* flex flow - vai unir o direction e wrap*/
+
+/* justfy-content - vai justificar tudo que ta dentro do container, todo o conteudo
+flex start - alinhar tudo - PADRAO
+flex end - alinhar e colocar no final
+center do centro k
+space-between - vai dar um espaco no MEIO, desconsidera as estremidades
+space-around - vai distribuir espacamento ENTRE OS ITENS, vai ter espaco nas estremidades tambem */
+
+/* align-itens - VAI MUDAR O ITEM QUE ESTA RELACIONADO DIRETAMENTE
+stretch - 
+flex start - coloca no inicio do container
+flex end - coloca no final do container
+center - alinhar os itens dentro do container no eixo secundario da orientação do container (SE ESTA EM ROW HORIZONTAL - COLUM VERTICAL)
+baseline - alinhar de acordo com o eixo base da tipografia da escrita que esta dentro dos itens???????????
+ */
+
+/* alingn content - vai alinhar o conteudo como um todo, não somente os itens
+ */
